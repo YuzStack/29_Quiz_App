@@ -2,28 +2,39 @@
 
 const questions = [
   {
-    topic: 'Science',
-    question: 'What color is the sky?',
-    possibleAnswers: ['Blue', 'Green', 'Yellow'],
-    correctAnswer: 'Blue',
+    topic: 'History',
+    question: 'Which civilization built the pyramids of Giza?',
+    possibleAnswers: ['Nigerian', 'Egyptian', , 'Roman'],
+    correctAnswer: 'Egyptian',
   },
   {
-    topic: 'Tech',
-    question: 'What is the best language to learn?',
-    possibleAnswers: ['Javascript', 'Python', 'Ruby'],
-    correctAnswer: 'Javascript',
+    topic: 'Literature',
+    question: "Who wrote 'Romeo and Juliet'?",
+    possibleAnswers: [
+      'Charles Dickens',
+      'Yusuf Oyinlola',
+      'William Shakespeare',
+      'Jane Austen',
+    ],
+    correctAnswer: 'William Shakespeare',
+  },
+  {
+    topic: 'Geography',
+    question: 'What is the capital of Japan?',
+    possibleAnswers: ['Beijing', 'Ilorin', 'Tokyo'],
+    correctAnswer: 'Tokyo',
   },
   {
     topic: 'Math',
-    question: 'What is 4 + 4',
-    possibleAnswers: ['7', '8', '9', '10'],
+    question: 'What is (√8)^2',
+    possibleAnswers: ['4', '8', '2', '16'],
     correctAnswer: '8',
   },
   {
-    topic: 'Random',
-    question: 'What is my favorite energy drink?',
-    possibleAnswers: ['Ghost', 'Monster', 'Redbull'],
-    correctAnswer: 'Monster',
+    topic: 'Football',
+    question: 'Which is the biggest club in London?',
+    possibleAnswers: ['Arsenal', 'Chelsea', 'Tottenham'],
+    correctAnswer: 'Arsenal',
   },
 ];
 

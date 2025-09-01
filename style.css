@@ -72,11 +72,11 @@ body {
   cursor: pointer;
 }
 
-.container .answer-container button:hover {
+.container .answer-container button:active {
   background-color: var(--primary-dark);
   color: var(--primary);
   border-color: var(--primary);
-} /*# sourceMappingURL=app.css.map */
+}
 
 .container .answer-container .restart-button {
   color: var(--primary);
